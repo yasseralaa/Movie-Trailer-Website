@@ -7,15 +7,20 @@ import urllib2
 # main function
 def main():
     # the movie db api
-    moviedbapi = "http://api.themoviedb.org/3/discover/movie?api_key=fa4170617ad1260b3b65c4c0dc9997ef"
-    # using urllib to load api content and json.load method to extract it's json data
+    moviedbapi = "http://api.themoviedb.org/3/discover/mo" \
+                 "vie?api_key=fa4170617ad1260b3b65c4c0dc9997ef"
+    # using urllib to load api content and json.load
+    # method to extract it's json data
     moviedbdata = json.load(urllib2.urlopen(moviedbapi))
     # list to add movie objects
     movies = []
     # iterate throw json array of objects and extract data values with keys
     for movie in moviedbdata['results']:
-        movie_object = media.Movie(movie['title'], "http://image.tmdb.org/t/p/w185/" + str(movie['poster_path']),
-                                   get_trailer(movie['id']), movie['vote_average'])
+        movie_object = media.Movie(
+            movie['title'],
+            "http://image.tmdb.org/t/p/w185/" + str(movie['poster_path']),
+            get_trailer(movie['id']),
+            movie['vote_average'])
         movies.append(movie_object)
 
     # calling the "open_movies_page" func from "fresh_tomatoes" module
