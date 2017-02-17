@@ -1,5 +1,8 @@
 **Movie Trailer Website**
 
+
+![ScreenShot](https://github.com/yasseralaa/Movie-Trailer-Website/blob/master/screenshots/Screenshot (371).png)
+
 **Description**
 
     - This project is part of Full-Stack Nanodegree program.
