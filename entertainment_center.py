@@ -18,7 +18,7 @@ def main():
     for movie in moviedbdata['results']:
         movie_object = media.Movie(
             movie['title'],
-            "http://image.tmdb.org/t/p/w185/" + str(movie['poster_path']),
+            "http://image.tmdb.org/t/p/w185" + str(movie['poster_path']),
             get_trailer(movie['id']),
             movie['vote_average'])
         movies.append(movie_object)

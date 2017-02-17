@@ -1,36 +1,37 @@
-Movie Trailer Website
+**Movie Trailer Website**
 
-Description
+**Description**
 
-    This project is part of Full-Stack Nanodegree program.
-    Consuming themoviedb.org api viewing movies posters and trailers.
+    - This project is part of Full-Stack Nanodegree program.
+    - Consuming themoviedb.org api viewing movies posters and trailers.
 
 
-Features
+**Features**
 
-    Written in python
-    No installation necessary, download and run.
-    Easy to use
-    Works on Mac, Linux and Windows
+    - Written in python
+    - No installation necessary, download and run.
+    - Easy to use
+    - Works on Mac, Linux and Windows
 
-Installation
+**Installation**
 
-    Download or clone project
-    executing entertainment_center.py file generates fresh_tomatoes.html
-    run the command  """     python entertainment_center.py     """
-    open fresh_tomatoes.html
+    - Download or clone project
+    - Executing entertainment_center.py file generates fresh_tomatoes.html
+    - Run the command  """     python entertainment_center.py     """
+    - Open fresh_tomatoes.html
 
-Libraries
+**Libraries**
 
-    urllib2 : https://docs.python.org/2/library/urllib2.html
-    json : https://docs.python.org/2/library/json.html
-    webbrowser : https://docs.python.org/2/library/webbrowser.html
-    os : https://docs.python.org/2/library/os.html
-    re : https://docs.python.org/2/library/re.html
+    - urllib2 : https://docs.python.org/2/library/urllib2.html
+    - json : https://docs.python.org/2/library/json.html
+    - webbrowser : https://docs.python.org/2/library/webbrowser.html
+    - os : https://docs.python.org/2/library/os.html
+    - re : https://docs.python.org/2/library/re.html
 
-Contacts
+**Contacts**
 
-    E-Mail: yasser.alaaeldin1995@gmail.com
+    - E-Mail: yasser.alaaeldin1995@gmail.com
 
-License
+**License**
+
 MIT
