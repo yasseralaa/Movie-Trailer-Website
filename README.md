@@ -1,7 +1,7 @@
 **Movie Trailer Website**
 
 
-![ScreenShot](https://github.com/yasseralaa/Movie-Trailer-Website/blob/master/screenshots/Screenshot (371).png)
+![ScreenShot](https://github.com/yasseralaa/Movie-Trailer-Website/blob/master/screenshots/Screenshot%20(371).png)
 
 **Description**
 
